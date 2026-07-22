@@ -5,23 +5,19 @@
 
   <p align="center">
     <a href="https://vaibhavk.devs.surf" target="_blank" rel="noreferrer" title="Portfolio Website">
-      <img src="https://skillicons.dev/icons?i=net" height="40" alt="Portfolio" />
+      <img src="https://raw.githubusercontent.com/feathericons/feather/master/icons/globe.svg" width="32" height="32" alt="Portfolio" />
     </a>
-    &nbsp;&nbsp;
-    <a href="https://github.com/va18hav" target="_blank" rel="noreferrer" title="GitHub Profile">
-      <img src="https://skillicons.dev/icons?i=github" height="40" alt="GitHub" />
-    </a>
-    &nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;
     <a href="https://linkedin.com/in/vaibhav-kolekar-968883385" target="_blank" rel="noreferrer" title="LinkedIn Profile">
-      <img src="https://skillicons.dev/icons?i=linkedin" height="40" alt="LinkedIn" />
+      <img src="https://skillicons.dev/icons?i=linkedin" height="32" alt="LinkedIn" />
     </a>
-    &nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;
     <a href="https://x.com/va18hav_k" target="_blank" rel="noreferrer" title="X (Twitter)">
-      <img src="https://skillicons.dev/icons?i=twitter" height="40" alt="X" />
+      <img src="https://skillicons.dev/icons?i=twitter" height="32" alt="X" />
     </a>
-    &nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;
     <a href="mailto:va18havk3@gmail.com" target="_blank" rel="noreferrer" title="Email Direct">
-      <img src="https://skillicons.dev/icons?i=gmail" height="40" alt="Email" />
+      <img src="https://skillicons.dev/icons?i=gmail" height="32" alt="Email" />
     </a>
   </p>
 
@@ -50,16 +46,11 @@ I design and build production-grade, event-driven full-stack systems in **TypeSc
 
 An end-to-end, voice-first mock interview platform that simulates realistic technical, system design, and behavioral interviews with bidirectional audio streaming and live code synchronization.
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![WebSockets](https://img.shields.io/badge/WebSockets-010101?style=flat-square&logo=socketdotio&logoColor=white)
-![Gemini Live API](https://img.shields.io/badge/Gemini_Live_API-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)
-![Claude 3.5 Sonnet](https://img.shields.io/badge/Claude_3.5_Sonnet-D97706?style=flat-square&logo=anthropic&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![AWS ECS](https://img.shields.io/badge/AWS_ECS-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=ts,react,nodejs" height="28" alt="Core" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/socketio/socketio-original.svg" width="28" height="28" alt="WebSockets" />
+  <img src="https://skillicons.dev/icons?i=postgres,redis,prisma,aws,docker,vercel" height="28" alt="Infrastructure" />
+</p>
 
 - **Real-Time Voice Bridge (400–500ms TTFT)**: Implemented a raw WebSocket proxy server piping 16kHz PCM audio buffers between the client and Google GenAI Live API for fluid conversational pacing.
 - **Monaco Code Editor Sync**: Built a debounced `[EDITOR_UPDATE]` context synchronization pipeline that injects live candidate code edits into the model's window without disturbing audio streaming.
@@ -73,15 +64,12 @@ An end-to-end, voice-first mock interview platform that simulates realistic tech
 
 A decoupled, microservices-based API monitoring and telemetry platform featuring distributed alerting queues, container log aggregation, and Prometheus metrics exporting.
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white)
-![BullMQ](https://img.shields.io/badge/BullMQ-CC0000?style=flat-square&logo=redis&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
-![Grafana Loki](https://img.shields.io/badge/Grafana_Loki-F46800?style=flat-square&logo=grafana&logoColor=white)
-![k6](https://img.shields.io/badge/k6-7D64FF?style=flat-square&logo=k6&logoColor=white)
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=ts,react,express" height="28" alt="Stack" />
+  <img src="https://raw.githubusercontent.com/taskforcesh/bullmq/master/docs/gitbook/assets/bullmq-logo.png" height="28" alt="BullMQ" />
+  <img src="https://skillicons.dev/icons?i=redis,postgres,prisma,docker,aws,nginx,prometheus,grafana" height="28" alt="Ops" />
+  <img src="https://raw.githubusercontent.com/grafana/k6/master/assets/logo.svg" height="28" alt="k6" />
+</p>
 
 - **Decoupled Worker Engine**: Separated health-check pings from the HTTP runtime using BullMQ and Redis queues; verified **64 req/sec** API gateway throughput with **sub-110ms p95 latency** via k6 and **125 jobs/sec** DB write performance.
 - **Multi-Stage Alert Dispatching**: Created isolated event queues for failure notifications (via Resend API) so downstream alerting retries never stall primary health monitor workers.
@@ -95,12 +83,9 @@ A decoupled, microservices-based API monitoring and telemetry platform featuring
 
 A lightweight, database-backed background task processing engine built from scratch with ACID transactional guarantees, non-blocking polling, and lease-based worker crash recovery.
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Jest](https://img.shields.io/badge/Jest-C21325?style=flat-square&logo=jest&logoColor=white)
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=ts,nodejs,express,postgres,prisma,docker,jest" height="28" alt="Stack" />
+</p>
 
 - **Non-Blocking Dequeue (`FOR UPDATE SKIP LOCKED`)**: Leverages PostgreSQL row-level locking to allow multiple worker processes to concurrently claim tasks without lock contention or double-allocation.
 - **Lease-Based Crash Recovery**: Implemented heartbeat timestamp pings (`lockedAt`); automatically reclaims and reschedules stalled jobs if a worker node crashes or freezes for over 30 seconds.
@@ -114,118 +99,118 @@ A lightweight, database-backed background task processing engine built from scra
 <table align="center">
   <tr>
     <td align="center" width="125">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="42" height="42" alt="TypeScript" />
+      <img src="https://skillicons.dev/icons?i=ts" width="42" height="42" alt="TypeScript" />
       <br />
       <sub><b>TYPESCRIPT</b></sub>
     </td>
     <td align="center" width="125">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="42" height="42" alt="React" />
+      <img src="https://skillicons.dev/icons?i=react" width="42" height="42" alt="React" />
       <br />
       <sub><b>REACT</b></sub>
     </td>
     <td align="center" width="125">
-      <img src="https://raw.githubusercontent.com/va18hav/VaibhavK/main/public/icons/zustand.svg" width="42" height="42" alt="Zustand" />
+      <img src="public/icons/zustand.svg" width="42" height="42" alt="Zustand" />
       <br />
       <sub><b>ZUSTAND</b></sub>
     </td>
     <td align="center" width="125">
-      <img src="https://raw.githubusercontent.com/va18hav/VaibhavK/main/public/icons/react-query.svg" width="42" height="42" alt="TanStack Query" />
+      <img src="public/icons/react-query.svg" width="42" height="42" alt="TanStack Query" />
       <br />
       <sub><b>TANSTACK QUERY</b></sub>
     </td>
     <td align="center" width="125">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg" width="42" height="42" alt="Tailwind CSS" />
+      <img src="https://skillicons.dev/icons?i=tailwind" width="42" height="42" alt="Tailwind CSS" />
       <br />
       <sub><b>TAILWIND CSS</b></sub>
     </td>
     <td align="center" width="125">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" width="42" height="42" alt="Node.js" />
+      <img src="https://skillicons.dev/icons?i=nodejs" width="42" height="42" alt="Node.js" />
       <br />
       <sub><b>NODE.JS</b></sub>
     </td>
   </tr>
   <tr>
     <td align="center" width="125">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg" width="42" height="42" alt="Express" />
+      <img src="https://skillicons.dev/icons?i=express" width="42" height="42" alt="Express" />
       <br />
       <sub><b>EXPRESS</b></sub>
     </td>
     <td align="center" width="125">
-      <img src="https://raw.githubusercontent.com/va18hav/VaibhavK/main/public/icons/Socket.io.svg" width="42" height="42" alt="WebSockets" />
+      <img src="public/icons/Socket.io.svg" width="42" height="42" alt="WebSockets" />
       <br />
       <sub><b>WEBSOCKETS</b></sub>
     </td>
     <td align="center" width="125">
-      <img src="https://raw.githubusercontent.com/va18hav/VaibhavK/main/public/icons/bullmq.svg" width="42" height="42" alt="BullMQ" />
+      <img src="public/icons/bullmq.svg" width="42" height="42" alt="BullMQ" />
       <br />
       <sub><b>BULLMQ</b></sub>
     </td>
     <td align="center" width="125">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" width="42" height="42" alt="PostgreSQL" />
+      <img src="https://skillicons.dev/icons?i=postgres" width="42" height="42" alt="PostgreSQL" />
       <br />
       <sub><b>POSTGRESQL</b></sub>
     </td>
     <td align="center" width="125">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original.svg" width="42" height="42" alt="Redis" />
+      <img src="https://skillicons.dev/icons?i=redis" width="42" height="42" alt="Redis" />
       <br />
       <sub><b>REDIS</b></sub>
     </td>
     <td align="center" width="125">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/prisma/prisma-original.svg" width="42" height="42" alt="Prisma" />
+      <img src="https://skillicons.dev/icons?i=prisma" width="42" height="42" alt="Prisma" />
       <br />
       <sub><b>PRISMA</b></sub>
     </td>
   </tr>
   <tr>
     <td align="center" width="125">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" width="42" height="42" alt="Docker" />
+      <img src="https://skillicons.dev/icons?i=docker" width="42" height="42" alt="Docker" />
       <br />
       <sub><b>DOCKER</b></sub>
     </td>
     <td align="center" width="125">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" width="42" height="42" alt="AWS" />
+      <img src="https://skillicons.dev/icons?i=aws" width="42" height="42" alt="AWS" />
       <br />
       <sub><b>AWS</b></sub>
     </td>
     <td align="center" width="125">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" width="42" height="42" alt="Nginx" />
+      <img src="https://skillicons.dev/icons?i=nginx" width="42" height="42" alt="Nginx" />
       <br />
       <sub><b>NGINX</b></sub>
     </td>
     <td align="center" width="125">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vercel/vercel-original.svg" width="42" height="42" alt="Vercel" />
+      <img src="https://skillicons.dev/icons?i=vercel" width="42" height="42" alt="Vercel" />
       <br />
       <sub><b>VERCEL</b></sub>
     </td>
     <td align="center" width="125">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" width="42" height="42" alt="Git" />
+      <img src="https://skillicons.dev/icons?i=git" width="42" height="42" alt="Git" />
       <br />
       <sub><b>GIT</b></sub>
     </td>
     <td align="center" width="125">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jest/jest-plain.svg" width="42" height="42" alt="Jest" />
+      <img src="https://skillicons.dev/icons?i=jest" width="42" height="42" alt="Jest" />
       <br />
       <sub><b>JEST</b></sub>
     </td>
   </tr>
   <tr>
     <td align="center" width="125">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postman/postman-original.svg" width="42" height="42" alt="Postman" />
+      <img src="https://skillicons.dev/icons?i=postman" width="42" height="42" alt="Postman" />
       <br />
       <sub><b>POSTMAN</b></sub>
     </td>
     <td align="center" width="125">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/prometheus/prometheus-original.svg" width="42" height="42" alt="Prometheus" />
+      <img src="https://skillicons.dev/icons?i=prometheus" width="42" height="42" alt="Prometheus" />
       <br />
       <sub><b>PROMETHEUS</b></sub>
     </td>
     <td align="center" width="125">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/grafana/grafana-original.svg" width="42" height="42" alt="Grafana Loki" />
+      <img src="https://skillicons.dev/icons?i=grafana" width="42" height="42" alt="Grafana Loki" />
       <br />
       <sub><b>GRAFANA LOKI</b></sub>
     </td>
     <td align="center" width="125">
-      <img src="https://raw.githubusercontent.com/va18hav/VaibhavK/main/public/icons/k6.svg" width="42" height="42" alt="k6" />
+      <img src="public/icons/k6.svg" width="42" height="42" alt="k6" />
       <br />
       <sub><b>K6</b></sub>
     </td>
@@ -233,9 +218,3 @@ A lightweight, database-backed background task processing engine built from scra
     <td align="center" width="125"></td>
   </tr>
 </table>
-
----
-
-<div align="center">
-  <p>Designed & built by <strong>Vaibhav Kolekar</strong> · <a href="https://vaibhavk.devs.surf">vaibhavk.devs.surf</a></p>
-</div>
