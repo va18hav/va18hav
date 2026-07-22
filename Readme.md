@@ -4,10 +4,6 @@
 
 ### Full-Stack Developer — building backend-heavy systems that hold up in production
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-vaibhavk.devs.surf-0A0E12?style=for-the-badge&logo=vercel&logoColor=white)](https://vaibhavk.devs.surf)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/vaibhav-k-968883385)
-[![Email](https://img.shields.io/badge/Email-va18havrk3%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:va18havrk3@gmail.com)
-
 </div>
 
 <br>
@@ -24,38 +20,60 @@ Currently building a **patient records and reporting system** for a sonography c
 
 ## Tech Stack
 
-<div align="left">
+<br>
 
 **Languages & Frontend**
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+<br>
+<img title="TypeScript" alt="TypeScript" src="https://cdn.simpleicons.org/typescript/3178C6" width="42" height="42" hspace="6"/>
+<img title="JavaScript" alt="JavaScript" src="https://cdn.simpleicons.org/javascript/F7DF1E" width="42" height="42" hspace="6"/>
+<img title="React" alt="React" src="https://cdn.simpleicons.org/react/61DAFB" width="42" height="42" hspace="6"/>
+<img title="Tailwind CSS" alt="Tailwind CSS" src="https://cdn.simpleicons.org/tailwindcss/06B6D4" width="42" height="42" hspace="6"/>
+
+<br><br>
 
 **Backend**
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![Express](https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
-![WebSockets](https://img.shields.io/badge/WebSockets-010101?style=flat-square&logo=socket.io&logoColor=white)
+<br>
+<img title="Node.js" alt="Node.js" src="https://cdn.simpleicons.org/nodedotjs/339933" width="42" height="42" hspace="6"/>
+<img title="Express.js" alt="Express.js" src="https://cdn.simpleicons.org/express/6E7681" width="42" height="42" hspace="6"/>
+<img title="Prisma" alt="Prisma" src="https://cdn.simpleicons.org/prisma/2D3748" width="42" height="42" hspace="6"/>
+<img title="Socket.IO / WebSockets" alt="WebSockets" src="https://cdn.simpleicons.org/socketdotio/6E7681" width="42" height="42" hspace="6"/>
+
+<br><br>
 
 **Databases**
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white)
+<br>
+<img title="PostgreSQL" alt="PostgreSQL" src="https://cdn.simpleicons.org/postgresql/4169E1" width="42" height="42" hspace="6"/>
+<img title="Redis" alt="Redis" src="https://cdn.simpleicons.org/redis/DC382D" width="42" height="42" hspace="6"/>
+<img title="Supabase" alt="Supabase" src="https://cdn.simpleicons.org/supabase/3ECF8E" width="42" height="42" hspace="6"/>
+
+<br><br>
 
 **Cloud & DevOps**
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+<br>
+<img title="AWS" alt="AWS" src="https://cdn.simpleicons.org/amazonaws/FF9900" width="42" height="42" hspace="6"/>
+<img title="Docker" alt="Docker" src="https://cdn.simpleicons.org/docker/2496ED" width="42" height="42" hspace="6"/>
+<img title="Nginx" alt="Nginx" src="https://cdn.simpleicons.org/nginx/009639" width="42" height="42" hspace="6"/>
+<img title="Vercel" alt="Vercel" src="https://cdn.simpleicons.org/vercel/6E7681" width="42" height="42" hspace="6"/>
+<img title="Railway" alt="Railway" src="https://cdn.simpleicons.org/railway/6E7681" width="42" height="42" hspace="6"/>
+<img title="Cloudflare" alt="Cloudflare" src="https://cdn.simpleicons.org/cloudflare/F38020" width="42" height="42" hspace="6"/>
+
+<br><br>
 
 **Testing & Observability**
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
-![Jest](https://img.shields.io/badge/Jest-C21325?style=flat-square&logo=jest&logoColor=white)
-![k6](https://img.shields.io/badge/k6-7D64FF?style=flat-square&logo=k6&logoColor=white)
+<br>
+<img title="Prometheus" alt="Prometheus" src="https://cdn.simpleicons.org/prometheus/E6522C" width="42" height="42" hspace="6"/>
+<img title="Grafana" alt="Grafana" src="https://cdn.simpleicons.org/grafana/F46800" width="42" height="42" hspace="6"/>
+<img title="Jest" alt="Jest" src="https://cdn.simpleicons.org/jest/C21325" width="42" height="42" hspace="6"/>
+<img title="k6" alt="k6" src="https://cdn.simpleicons.org/k6/7D64FF" width="42" height="42" hspace="6"/>
+<img title="Sentry" alt="Sentry" src="https://cdn.simpleicons.org/sentry/6E7681" width="42" height="42" hspace="6"/>
+<img title="Postman" alt="Postman" src="https://cdn.simpleicons.org/postman/FF6C37" width="42" height="42" hspace="6"/>
 
-</div>
+<br><br>
+
+**Tools**
+<br>
+<img title="Git" alt="Git" src="https://cdn.simpleicons.org/git/F05032" width="42" height="42" hspace="6"/>
+<img title="GitHub" alt="GitHub" src="https://cdn.simpleicons.org/github/6E7681" width="42" height="42" hspace="6"/>
 
 <br>
 
@@ -129,8 +147,19 @@ Built a patient records and diagnostic report generation system, currently in **
 
 ## Let's Connect
 
+<div align="center">
+
 I'm currently open to full-stack / backend roles and freelance work — especially systems involving real-time infrastructure, LLM integration, or backend reliability at scale.
 
-📧 [va18havrk3@gmail.com](mailto:va18havrk3@gmail.com) · 💼 [LinkedIn](https://linkedin.com/in/vaibhav-k-968883385) · 🌐 [Portfolio](https://vaibhavk.devs.surf)
+<br><br>
+
+<a href="https://vaibhavk.devs.surf"><img title="Portfolio" alt="Portfolio" src="https://cdn.simpleicons.org/vercel/6E7681" width="36" height="36" hspace="8"/></a>
+<a href="https://linkedin.com/in/vaibhav-k-968883385"><img title="LinkedIn" alt="LinkedIn" src="https://cdn.simpleicons.org/linkedin/0A66C2" width="36" height="36" hspace="8"/></a>
+<a href="mailto:va18havrk3@gmail.com"><img title="Email" alt="Email" src="https://cdn.simpleicons.org/gmail/EA4335" width="36" height="36" hspace="8"/></a>
+<a href="https://github.com/va18hav"><img title="GitHub" alt="GitHub" src="https://cdn.simpleicons.org/github/6E7681" width="36" height="36" hspace="8"/></a>
+
+<br><br>
+
+📧 va18havrk3@gmail.com
 
 </div>
