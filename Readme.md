@@ -64,6 +64,7 @@ A decoupled, microservices-based API monitoring and telemetry platform featuring
 
 <p align="left">
   <img src="https://skillicons.dev/icons?i=ts,react,express,redis,postgres,prisma,docker,aws,nginx,prometheus,grafana" height="32" alt="Pingdeck Tech Stack" />
+  <img src="https://raw.githubusercontent.com/taskforcesh/bullmq/master/docs/gitbook/assets/bullmq-logo.png" width="32" height="32" alt="BullMQ" />
 </p>
 
 - **Decoupled Worker Engine**: Separated health-check pings from the HTTP runtime using BullMQ and Redis queues; verified **64 req/sec** API gateway throughput with **sub-110ms p95 latency** via k6 and **125 jobs/sec** DB write performance.
@@ -104,12 +105,12 @@ A lightweight, database-backed background task processing engine built from scra
       <sub><b>REACT</b></sub>
     </td>
     <td align="center" width="125">
-      <img src="https://raw.githubusercontent.com/va18hav/VaibhavK/main/public/icons/zustand.svg" width="42" height="42" alt="Zustand" />
+      <img src="https://user-images.githubusercontent.com/1574577/129773038-038cf56f-7711-4ebc-829d-9d413346d03d.png" width="42" height="42" alt="Zustand" />
       <br />
       <sub><b>ZUSTAND</b></sub>
     </td>
     <td align="center" width="125">
-      <img src="https://raw.githubusercontent.com/va18hav/VaibhavK/main/public/icons/react-query.svg" width="42" height="42" alt="TanStack Query" />
+      <img src="https://raw.githubusercontent.com/TanStack/query/main/media/repo-header.png" width="42" height="42" alt="TanStack Query" />
       <br />
       <sub><b>TANSTACK QUERY</b></sub>
     </td>
@@ -136,7 +137,7 @@ A lightweight, database-backed background task processing engine built from scra
       <sub><b>WEBSOCKETS</b></sub>
     </td>
     <td align="center" width="125">
-      <img src="https://raw.githubusercontent.com/va18hav/VaibhavK/main/public/icons/bullmq.svg" width="42" height="42" alt="BullMQ" />
+      <img src="https://raw.githubusercontent.com/taskforcesh/bullmq/master/docs/gitbook/assets/bullmq-logo.png" width="42" height="42" alt="BullMQ" />
       <br />
       <sub><b>BULLMQ</b></sub>
     </td>
@@ -180,7 +181,7 @@ A lightweight, database-backed background task processing engine built from scra
     <td align="center" width="125">
       <img src="https://skillicons.dev/icons?i=git" width="42" height="42" alt="Git" />
       <br />
-      <sub><b>GIT</b></sub>
+      <sub><b>JEST</b></sub>
     </td>
     <td align="center" width="125">
       <img src="https://skillicons.dev/icons?i=jest" width="42" height="42" alt="Jest" />
