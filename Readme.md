@@ -47,9 +47,7 @@ I design and build production-grade, event-driven full-stack systems in **TypeSc
 An end-to-end, voice-first mock interview platform that simulates realistic technical, system design, and behavioral interviews with bidirectional audio streaming and live code synchronization.
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=ts,react,nodejs" height="28" alt="Core" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/socketio/socketio-original.svg" width="28" height="28" alt="WebSockets" />
-  <img src="https://skillicons.dev/icons?i=postgres,redis,prisma,aws,docker,vercel" height="28" alt="Infrastructure" />
+  <img src="https://skillicons.dev/icons?i=ts,react,nodejs,postgres,redis,prisma,aws,docker,vercel" height="32" alt="Interviu Tech Stack" />
 </p>
 
 - **Real-Time Voice Bridge (400–500ms TTFT)**: Implemented a raw WebSocket proxy server piping 16kHz PCM audio buffers between the client and Google GenAI Live API for fluid conversational pacing.
@@ -65,10 +63,7 @@ An end-to-end, voice-first mock interview platform that simulates realistic tech
 A decoupled, microservices-based API monitoring and telemetry platform featuring distributed alerting queues, container log aggregation, and Prometheus metrics exporting.
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=ts,react,express" height="28" alt="Stack" />
-  <img src="https://raw.githubusercontent.com/taskforcesh/bullmq/master/docs/gitbook/assets/bullmq-logo.png" height="28" alt="BullMQ" />
-  <img src="https://skillicons.dev/icons?i=redis,postgres,prisma,docker,aws,nginx,prometheus,grafana" height="28" alt="Ops" />
-  <img src="https://raw.githubusercontent.com/grafana/k6/master/assets/logo.svg" height="28" alt="k6" />
+  <img src="https://skillicons.dev/icons?i=ts,react,express,redis,postgres,prisma,docker,aws,nginx,prometheus,grafana" height="32" alt="Pingdeck Tech Stack" />
 </p>
 
 - **Decoupled Worker Engine**: Separated health-check pings from the HTTP runtime using BullMQ and Redis queues; verified **64 req/sec** API gateway throughput with **sub-110ms p95 latency** via k6 and **125 jobs/sec** DB write performance.
@@ -84,7 +79,7 @@ A decoupled, microservices-based API monitoring and telemetry platform featuring
 A lightweight, database-backed background task processing engine built from scratch with ACID transactional guarantees, non-blocking polling, and lease-based worker crash recovery.
 
 <p align="left">
-  <img src="https://skillicons.dev/icons?i=ts,nodejs,express,postgres,prisma,docker,jest" height="28" alt="Stack" />
+  <img src="https://skillicons.dev/icons?i=ts,nodejs,express,postgres,prisma,docker,jest" height="32" alt="Distributed Job Scheduler Tech Stack" />
 </p>
 
 - **Non-Blocking Dequeue (`FOR UPDATE SKIP LOCKED`)**: Leverages PostgreSQL row-level locking to allow multiple worker processes to concurrently claim tasks without lock contention or double-allocation.
@@ -109,12 +104,12 @@ A lightweight, database-backed background task processing engine built from scra
       <sub><b>REACT</b></sub>
     </td>
     <td align="center" width="125">
-      <img src="public/icons/zustand.svg" width="42" height="42" alt="Zustand" />
+      <img src="https://raw.githubusercontent.com/va18hav/VaibhavK/main/public/icons/zustand.svg" width="42" height="42" alt="Zustand" />
       <br />
       <sub><b>ZUSTAND</b></sub>
     </td>
     <td align="center" width="125">
-      <img src="public/icons/react-query.svg" width="42" height="42" alt="TanStack Query" />
+      <img src="https://raw.githubusercontent.com/va18hav/VaibhavK/main/public/icons/react-query.svg" width="42" height="42" alt="TanStack Query" />
       <br />
       <sub><b>TANSTACK QUERY</b></sub>
     </td>
@@ -136,12 +131,12 @@ A lightweight, database-backed background task processing engine built from scra
       <sub><b>EXPRESS</b></sub>
     </td>
     <td align="center" width="125">
-      <img src="public/icons/Socket.io.svg" width="42" height="42" alt="WebSockets" />
+      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/socketio/socketio-original.svg" width="42" height="42" alt="WebSockets" />
       <br />
       <sub><b>WEBSOCKETS</b></sub>
     </td>
     <td align="center" width="125">
-      <img src="public/icons/bullmq.svg" width="42" height="42" alt="BullMQ" />
+      <img src="https://raw.githubusercontent.com/va18hav/VaibhavK/main/public/icons/bullmq.svg" width="42" height="42" alt="BullMQ" />
       <br />
       <sub><b>BULLMQ</b></sub>
     </td>
@@ -210,7 +205,7 @@ A lightweight, database-backed background task processing engine built from scra
       <sub><b>GRAFANA LOKI</b></sub>
     </td>
     <td align="center" width="125">
-      <img src="public/icons/k6.svg" width="42" height="42" alt="k6" />
+      <img src="https://raw.githubusercontent.com/grafana/k6/master/assets/logo.svg" width="42" height="42" alt="k6" />
       <br />
       <sub><b>K6</b></sub>
     </td>
