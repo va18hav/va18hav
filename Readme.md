@@ -1,117 +1,108 @@
 <div align="center">
 
-  <h1>Hi, I'm Vaibhav Kolekar 👋</h1>
-  <p><strong>Full-Stack & Systems Developer</strong> based in Bengaluru, India 🇮🇳</p>
+# Hi, I'm Vaibhav Kolekar 👋
 
-  <p>
-    <a href="https://vaibhavkolekar.dev"><img src="https://img.shields.io/badge/Website-vaibhavkolekar.dev-3b82f6?style=for-the-badge&logo=react&logoColor=white" alt="Website"></a>
-    <a href="https://linkedin.com/in/vaibhav-kolekar-968883385"><img src="https://img.shields.io/badge/LinkedIn-Vaibhav_Kolekar-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-    <a href="mailto:va18havk3@gmail.com"><img src="https://img.shields.io/badge/Email-va18havk3@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
-    <a href="https://x.com/va18hav_k"><img src="https://img.shields.io/badge/X-@va18hav__k-000000?style=for-the-badge&logo=x&logoColor=white" alt="Twitter"></a>
-  </p>
+### Full-Stack Developer — building backend-heavy systems that hold up in production
 
-  <p>
-    <code>🟢 Open to Full-Stack, Backend & TypeScript Roles · Available Now</code>
-  </p>
+<br>
 
-  ---
+<img src="https://skillicons.dev/icons?i=ts,js,react,tailwind,nodejs,express,postgres,redis,prisma,docker,aws,nginx,vercel,git,github,jest,postman,grafana,prometheus,sentry,supabase&perline=10" />
 
 </div>
 
-## ⚡ About Me
+<br>
 
-I design and build production-grade, event-driven full-stack systems in **TypeScript** — handling everything from low-latency WebSocket bridges and distributed background queues to database schemas, containerization, and cloud infrastructure.
+## About
 
-- 🛠️ **Core Expertise**: Full-Stack TypeScript (PERN Stack: PostgreSQL, Express, React, Node.js), Redis, WebSockets, Docker, AWS, & Distributed Systems.
-- ⚡ **Real-Time & AI Systems**: Built **Interviu**, an AI-powered voice-to-voice mock interview engine using Google's Gemini Flash Live API & Claude Sonnet.
-- 📊 **Distributed Systems & Observability**: Engineered **Pingdeck**, a microservices uptime & metrics platform (Prometheus, Grafana Loki, BullMQ), and a **Distributed Job Scheduler** using PostgreSQL `FOR UPDATE SKIP LOCKED`.
+I design and ship full-stack systems solo — from database schema to deployed infrastructure. My focus is on the parts most portfolios skip: concurrency control, crash recovery, observability, and making sure a system stays reliable once real users depend on it.
 
----
+Currently building a **patient records and reporting system** for a sonography clinic — in daily production use by non-technical clinical staff — alongside independent projects spanning real-time AI voice systems, distributed job queues, and production monitoring infrastructure.
 
-## 🚀 Featured Engineering Projects
+📍 Based in Bengaluru, India · Open to remote full-stack & backend roles and freelance work
 
-### 01. [Interviu — AI Mock Interview Platform](https://interviu.pro)
-> **Live Web App**: [interviu.pro](https://interviu.pro) &nbsp;|&nbsp; **Repository**: [`va18hav/interviuPro`](https://github.com/va18hav/interviuPro)
+Also working with `Zustand`, `TanStack Query`, `BullMQ`, `k6`, and `Grafana Loki` — niche enough that they don't have official icon packs yet, called out in the project breakdowns below.
 
-An end-to-end, voice-first mock interview platform that simulates realistic technical, system design, and behavioral interviews with bidirectional audio streaming and live code synchronization.
+<br>
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![WebSockets](https://img.shields.io/badge/WebSockets-010101?style=flat-square&logo=socketdotio&logoColor=white)
-![Gemini Live API](https://img.shields.io/badge/Gemini_Live_API-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)
-![Claude 3.5 Sonnet](https://img.shields.io/badge/Claude_3.5_Sonnet-D97706?style=flat-square&logo=anthropic&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![AWS ECS](https://img.shields.io/badge/AWS_ECS-FF9900?style=flat-square&logo=amazonaws&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+## Featured Work
 
-- **Real-Time Voice Bridge (400–500ms TTFT)**: Implemented a raw WebSocket proxy server piping 16kHz PCM audio buffers between the client and Google GenAI Live API for fluid conversational pacing.
-- **Monaco Code Editor Sync**: Built a debounced `[EDITOR_UPDATE]` context synchronization pipeline that injects live candidate code edits into the model's window without disturbing audio streaming.
-- **Resilient Session Persistence**: Engineered a Redis session cache layer with a 30-second connection recovery window to preserve active interview state during network dropouts.
-- **Dual-Model Feedback Pipeline**: Decoupled voice interaction from evaluation; flushes full transcripts to Anthropic's Claude 3.5 Sonnet to generate structured JSON scorecards and actionable feedback.
+### 🎙️ [Interviu](https://interviu.pro) — Real-Time AI Mock Interview Platform
+Voice-based AI interview platform built solo, from scratch. Real interviews are live conversations under pressure — Interviu simulates that, not a chat window.
 
----
+- Built a **WebSocket server bridging the client and the Gemini Flash Live API** for native voice-to-voice communication — bidirectional audio streaming with 400–500ms observed latency in production
+- Implemented **Redis-backed session recovery** (transcript, system prompt, and resume handle persisted per session) with exponential backoff retry, so a dropped connection resumes instead of losing progress
+- Integrated the **Claude Sonnet API** to generate structured, context-aware feedback from full interview transcripts
+- Built a custom **JWT authentication flow** — token issuance, validation middleware, protected route lifecycle
 
-### 02. [Pingdeck — API Testing & Uptime Monitoring Platform](https://app.pingdeck.xyz)
-> **Live Web App**: [app.pingdeck.xyz](https://app.pingdeck.xyz) &nbsp;|&nbsp; **Repository**: [`va18hav/pingdeck`](https://github.com/va18hav/pingdeck)
+`TypeScript` `React` `Node.js` `WebSockets` `Gemini Flash Live API` `PostgreSQL` `Redis` `AWS ECS` `Docker`
 
-A decoupled, microservices-based API monitoring and telemetry platform featuring distributed alerting queues, container log aggregation, and Prometheus metrics exporting.
+**[Live →](https://interviu.pro)** · **[Code →](https://github.com/va18hav/interviuPro)**
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white)
-![BullMQ](https://img.shields.io/badge/BullMQ-CC0000?style=flat-square&logo=redis&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
-![Grafana Loki](https://img.shields.io/badge/Grafana_Loki-F46800?style=flat-square&logo=grafana&logoColor=white)
-![k6](https://img.shields.io/badge/k6-7D64FF?style=flat-square&logo=k6&logoColor=white)
+<br>
 
-- **Decoupled Worker Engine**: Separated health-check pings from the HTTP runtime using BullMQ and Redis queues; verified **64 req/sec** API gateway throughput with **sub-110ms p95 latency** via k6 and **125 jobs/sec** DB write performance.
-- **Multi-Stage Alert Dispatching**: Created isolated event queues for failure notifications (via Resend API) so downstream alerting retries never stall primary health monitor workers.
-- **Container Observability Pipeline**: Configured Promtail daemons scraping `/var/run/docker.sock` to parse structured Pino JSON logs into indexable Grafana Loki streams without application overhead.
-- **Prometheus Telemetry Instrumentation**: Embedded custom `prom-client` counters and execution duration histograms exposed on dedicated metrics ports.
+### 📡 [Pingdeck](https://app.pingdeck.xyz) — API Testing & Uptime Monitoring Platform
+Decoupled, microservices-based monitoring platform for API health and alerting.
 
----
+- Verified system throughput of **64 req/sec at sub-110ms p95 latency** under concurrent load, load-tested with **k6**
+- Built a multi-stage alerting pipeline (**BullMQ**/Redis) that dispatches real-time alerts via the Resend API while isolating notification failures from the core health-check queue
+- Deployed **Grafana Loki** + Promtail to parse structured container logs via the Docker socket, and instrumented the job engine with **Prometheus** (custom counters + latency histograms) on a dedicated metrics port
+- Measured database-write throughput at ~125 jobs/sec (PostgreSQL/Prisma) via a custom benchmark script
 
-### 03. [Distributed Job Scheduler](https://github.com/va18hav/distributed-job-scheduler)
-> **Repository**: [`va18hav/distributed-job-scheduler`](https://github.com/va18hav/distributed-job-scheduler)
+`TypeScript` `Node.js` `Express` `BullMQ` `Redis` `PostgreSQL` `Prisma` `Docker` `Prometheus` `Grafana Loki` `k6`
 
-A lightweight, database-backed background task processing engine built from scratch with ACID transactional guarantees, non-blocking polling, and lease-based worker crash recovery.
+**[Live →](https://app.pingdeck.xyz)** · **[Code →](https://github.com/va18hav/pingdeck)**
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Jest](https://img.shields.io/badge/Jest-C21325?style=flat-square&logo=jest&logoColor=white)
+<br>
 
-- **Non-Blocking Dequeue (`FOR UPDATE SKIP LOCKED`)**: Leverages PostgreSQL row-level locking to allow multiple worker processes to concurrently claim tasks without lock contention or double-allocation.
-- **Lease-Based Crash Recovery**: Implemented heartbeat timestamp pings (`lockedAt`); automatically reclaims and reschedules stalled jobs if a worker node crashes or freezes for over 30 seconds.
-- **Graceful OS Interrupt Traps**: Trapped `SIGINT`/`SIGTERM` process signals to halt polling loops, drain in-flight jobs, clear heartbeat timers, and release database client connections cleanly.
-- **Strategy Pattern Registry & Telemetry**: Built a type-safe handler execution registry alongside lock-free `/job/stats` real-time queue depth telemetry.
+### ⚙️ [Distributed Job Scheduler](https://github.com/va18hav/distributed-job-scheduler)
+A database-backed task queue built from first principles — no external queue library, just PostgreSQL.
 
----
+- **Non-blocking transactional dequeue** using `FOR UPDATE SKIP LOCKED`, allowing multiple concurrent workers to safely poll and dequeue tasks without contention
+- **Lease-based crash recovery** — a heartbeat mechanism that reclaims stalled tasks if a worker goes silent for 30+ seconds, inside a single SQL transaction
+- **Graceful shutdown handling** — traps `SIGINT`/`SIGTERM`, halts the acquisition loop, lets active jobs finish, and tears down connections cleanly
+- Lock-free telemetry endpoint computing real-time queue and worker metrics from sliding heartbeat windows
 
-## 🛠️ Technical Stack & Skills
+`TypeScript` `Node.js` `Express` `PostgreSQL` `Prisma` `Jest`
 
-Unlike traditional split views, my stack operates as a cohesive unit centered around modern TypeScript development across the entire software lifecycle:
+**[Code →](https://github.com/va18hav/distributed-job-scheduler)**
 
-| Domain | Technologies & Frameworks |
-| :--- | :--- |
-| **Languages & Core** | **TypeScript**, JavaScript (ES6+), SQL, HTML5/CSS3 |
-| **Frontend Engineering** | **React**, Next.js, Zustand, TanStack Query, Tailwind CSS, WebSockets |
-| **Backend & Microservices** | **Node.js**, Express.js, **BullMQ**, RESTful APIs, WebSockets, JWT Authentication |
-| **Databases & Caching** | **PostgreSQL**, **Redis**, Prisma ORM, Supabase |
-| **DevOps & Cloud Systems** | **Docker**, AWS (ECS, S3, EC2), Nginx, Cloudflare, Vercel |
-| **Observability & Testing** | **Prometheus**, **Grafana Loki**, Promtail, k6 Load Testing, Jest, Postman |
+<br>
 
----
+## Experience
 
-## 🌐 Connect With Me
+**Freelance Full-Stack Developer** — Sonography Clinic Management System
+`React` `TypeScript` `Node.js` `Express` `Supabase`
 
-- **Portfolio Website**: [vaibhavkolekar.dev](https://vaibhavkolekar.dev)
-- **LinkedIn**: [linkedin.com/in/vaibhav-kolekar-968883385](https://linkedin.com/in/vaibhav-kolekar-968883385)
-- **Email**: [va18havk3@gmail.com](mailto:va18havk3@gmail.com)
-- **X / Twitter**: [@va18hav_k](https://x.com/va18hav_k)
+Built a patient records and diagnostic report generation system, currently in **daily production use** by non-technical clinical staff.
+
+- Designed scan-type-specific templated form fields to minimize doctor input and reduce reporting errors
+- Secured patient records with field-level encryption in Supabase for sensitive medical data
+- Implemented a **multi-tenant permission architecture** — Doctor/Admin (full edit/delete rights), Typist (create/retrieve records), Receptionist (scoped to daily follow-up reminders only)
+
+<br>
+
+## GitHub Stats
+
+<div align="center">
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=va18hav&show_icons=true&theme=tokyonight&hide_border=true" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=va18hav&layout=compact&theme=tokyonight&hide_border=true" />
+
+</div>
+
+<br>
+
+## Let's Connect
+
+<div align="center">
+
+I'm currently open to full-stack / backend roles and freelance work — especially systems involving real-time infrastructure, LLM integration, or backend reliability at scale.
+
+<br><br>
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://vaibhavk.devs.surf)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/vaibhav-k-968883385)
+[![Email](https://img.shields.io/badge/Email-333333?style=for-the-badge&logo=gmail&logoColor=white)](mailto:va18havrk3@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/va18hav)
+
+</div>
