@@ -41,10 +41,10 @@ I design and build production-grade, event-driven full-stack systems in **TypeSc
 
 ## 🚀 Featured Engineering Projects
 
-### 01. [Interviu — AI Mock Interview Platform](https://interviu.pro)
-> **Live Web App**: [interviu.pro](https://interviu.pro) &nbsp;|&nbsp; **Repository**: [`va18hav/interviuPro`](https://github.com/va18hav/interviuPro)
+### 01. [Interviu — AI Asynchronous Technical Screening Platform]
+> **Live Web App**: [interviu.pro](https://interviu.pro) 
 
-An end-to-end, voice-first mock interview platform that simulates realistic technical, system design, and behavioral interviews with bidirectional audio streaming and live code synchronization.
+Enterprise-grade multi-tenant AI technical screening platform that enables engineering teams to automate candidate evaluation using company-specific tech stacks and hiring standards.
 
 <p align="left">
   <img src="./icons/TypeScript.svg" width="28" height="28" alt="TypeScript" />&nbsp;
@@ -59,10 +59,10 @@ An end-to-end, voice-first mock interview platform that simulates realistic tech
   <img src="./icons/Vercel.svg" width="28" height="28" alt="Vercel" />
 </p>
 
-- **Real-Time Voice Bridge (400–500ms TTFT)**: Implemented a raw WebSocket proxy server piping 16kHz PCM audio buffers between the client and Google GenAI Live API for fluid conversational pacing.
-- **Monaco Code Editor Sync**: Built a debounced `[EDITOR_UPDATE]` context synchronization pipeline that injects live candidate code edits into the model's window without disturbing audio streaming.
-- **Resilient Session Persistence**: Engineered a Redis session cache layer with a 30-second connection recovery window to preserve active interview state during network dropouts.
-- **Dual-Model Feedback Pipeline**: Decoupled voice interaction from evaluation; flushes full transcripts to Anthropic's Claude 3.5 Sonnet to generate structured JSON scorecards and actionable feedback.
+- **Real-Time Voice AI Engine & Audio Streaming(Websockets & Gemini Realtime API)**: Architected a low-latency voice-to-voice interview streaming engine by integrating the Gemini Realtime API over bi-directional WebSockets, replacing legacy multi-stage STT/TTS pipelines; implemented PCM audio chunk buffering, audio stream synchronization, and connection state recovery for seamless candidate experience during network drops.
+- **Pay-As-You-Go Billing & Credit Ledger Engine (Razorpay, Webhooks & ACID Ledger)**: Engineered a pay-as-you-go credit billing and accounting subsystem integrated with the Razorpay API and cryptographic HMAC webhook verification; implemented atomic PostgreSQL ledger transaction with balance snapshots to execute credit grants and usage deductions with zero credit drift under concurrent API requests.
+- **Distributed Async Processing Subsystem (BullMQ, Redis & Background Workers)**: Implemented a resilient distributed queue architecture using BullMQ and Redis to decouple heavy background workloads - including LLM-powered candidate scorecard evaluation, multi-chunk video recording stitching, and transactional email dispatches - with automated exponential-backoff retries and 99.9% task processing reliability.
+- **Automated CI/CD & Multi-Tenant Infrastructure (Docker Compose, AWS EC2 & GitHub Actions)**: Built an automated production CI/CD pipeline using GitHub Actions, Docker Compose, and AWS EC2; enforced multi-tenant organization data isolation (RBAC) and automated TypeScript compilation, database migrations, and container health checks for zero-downtime production releases.
 
 ---
 
