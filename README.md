@@ -5,7 +5,6 @@
 [![Website](https://img.shields.io/badge/website-vaibhavk.devs.surf-2563eb?style=flat&logo=googlechrome&logoColor=white)](https://vaibhavk.devs.surf)
 [![LinkedIn](https://img.shields.io/badge/linkedin-vaibhav--k-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/vaibhav-k-968883385)
 [![X](https://img.shields.io/badge/X-@va18hav__k-111111?style=flat&logo=x&logoColor=white)](https://x.com/va18hav_k)
-[![GitHub Followers](https://img.shields.io/github/followers/va18hav?label=followers&style=flat&logo=github)](https://github.com/va18hav)
 
 - 🔭 Currently working on [**Autage**](https://github.com/va18hav/Autage) — an autonomous SRE agent for Kubernetes diagnostics
 - ⚡ Built [**Interviu**](https://interviu.pro) & [**Pingdeck**](https://app.pingdeck.xyz)
