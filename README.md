@@ -1,27 +1,21 @@
 # Hi, I'm Vaibhav Kolekar
 
-### AI, Backend & Distributed Systems Engineering
+### AI, Backend & Distributed Systems
 
 [![Website](https://img.shields.io/badge/website-vaibhavk.devs.surf-2563eb?style=flat&logo=googlechrome&logoColor=white)](https://vaibhavk.devs.surf)
 [![LinkedIn](https://img.shields.io/badge/linkedin-vaibhav--k-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/vaibhav-k-968883385)
 [![X](https://img.shields.io/badge/X-@va18hav__k-111111?style=flat&logo=x&logoColor=white)](https://x.com/va18hav_k)
+[![GitHub Followers](https://img.shields.io/github/followers/va18hav?label=followers&style=flat&logo=github)](https://github.com/va18hav)
 
-<a href="https://github.com/va18hav">
-  <img align="right" width="380" src="./icons/stats.svg" alt="Vaibhav Kolekar's Engineering Focus" />
-</a>
-
-- 🔭 Currently building [**Autage**](https://github.com/va18hav/Autage)
+- 🔭 Currently working on [**Autage**](https://github.com/va18hav/Autage) — an autonomous SRE agent for Kubernetes diagnostics
 - ⚡ Built [**Interviu**](https://interviu.pro) & [**Pingdeck**](https://app.pingdeck.xyz)
-- 💬 Into **agentic systems**, **end-to-end systems**, **distributed systems**, and **LLMs**
-- 🌐 Portfolio & projects at [**vaibhavk.devs.surf**](https://vaibhavk.devs.surf)
-- 📫 Reach me at [**va18havrk3@gmail.com**](mailto:va18havrk3@gmail.com)
-- 💻 Connect with me on [**LinkedIn**](https://linkedin.com/in/vaibhav-k-968883385)
+- 💬 Interested in **agentic workflows**, **distributed queues**, and **K8s tooling**
+- 🌐 More about my projects on [**vaibhavk.devs.surf**](https://vaibhavk.devs.surf)
+- 📫 Reach me at [**va18havrk3@gmail.com**](mailto:va18havrk3@gmail.com) or on [**LinkedIn**](https://linkedin.com/in/vaibhav-k-968883385)
 
-<br clear="both" />
+## Favorite Tech
 
-## Core Stack
-
-> Languages, frameworks, and infrastructure I use most often.
+> Tools, languages, and infrastructure I work with.
 
 <table>
   <tr>
