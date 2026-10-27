@@ -7,7 +7,7 @@
 [![X](https://img.shields.io/badge/X-@va18hav__k-111111?style=flat&logo=x&logoColor=white)](https://x.com/va18hav_k)
 
 - 🔭 Currently working on [**Autage**](https://github.com/va18hav/Autage) — an autonomous SRE agent for Kubernetes diagnostics
-- ⚡ Built [**Interviu**](https://interviu.pro) & [**Pingdeck**](https://app.pingdeck.xyz)
+- ⚡ Built [**Interviu**](https://interviu.pro) & [**Pingdeck**](https://github.com/va18hav/pingdeck)
 - 💬 Interested in **agentic workflows**, **distributed queues**, and **K8s tooling**
 - 📫 Reach me at [**va18havrk3@gmail.com**](mailto:va18havrk3@gmail.com) or on [**LinkedIn**](https://www.linkedin.com/in/vaibhav-kolekar-968883385)
 
